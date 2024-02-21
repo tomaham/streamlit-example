@@ -11,6 +11,7 @@ import re
 import sys
 
 #nltk.download('wordnet')
+print(nltk.find('corpora/wordnet.zip'))
 
 
 
