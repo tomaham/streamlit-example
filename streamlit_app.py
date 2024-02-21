@@ -10,6 +10,8 @@ import platform
 import re
 import sys
 
+nltk.download('wordnet')
+
 """
 # Welcome to Streamlit!
 
