@@ -10,7 +10,7 @@ import platform
 import re
 import sys
 
-nltk.download('wordnet')
+#nltk.download('wordnet')
 
 
 
