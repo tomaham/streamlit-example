@@ -5,13 +5,14 @@ import streamlit as st
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 from nltk.corpus import wordnet as wn
+import nltk
 import os
 import platform
 import re
 import sys
 
-#nltk.download('wordnet')
-print(nltk.find('corpora/wordnet.zip'))
+nltk.download('wordnet')
+#print(nltk.find('corpora/wordnet.zip'))
 
 
 
